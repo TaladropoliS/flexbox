@@ -1,0 +1,21 @@
+body {
+    font-size: 10px;
+}
+
+.box {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.box-a {
+    padding: 20px;
+}
+
+a {
+    margin: 5px;
+    padding: 15px;
+    font-size: x-large;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-decoration: none;
+}
