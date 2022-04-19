@@ -6,15 +6,25 @@
     /*border: 1px solid red;*/
 }
 
-main {
+#big-box {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #c9c9c9;
+}
+
+.box {
+    flex-direction: row;
 }
 
 .box1, .box2 {
-    background-color: #ff253a;
+    text-align: center;
+    background-color: #c96a6f;
     color: white;
     padding: 5px;
+    margin: 5px;
+    width: 150px;
 }
 
 
