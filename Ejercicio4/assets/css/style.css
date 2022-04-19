@@ -3,19 +3,22 @@
     font-weight: lighter;
     overflow-x: hidden;
     box-sizing: border-box;
+    font-size: small;
     /*border: 1px solid red;*/
 }
 
 #big-box {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
     background-color: #c9c9c9;
+    width: 330px;
+    margin-top: 50px;
+    margin-left: 5%;
 }
 
 .box {
-    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: #c9c9c9;
 }
 
 .box1, .box2 {
@@ -24,7 +27,7 @@
     color: white;
     padding: 5px;
     margin: 5px;
-    width: 150px;
+    width: 100px;
 }
 
 
