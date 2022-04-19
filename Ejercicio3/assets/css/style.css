@@ -1,0 +1,42 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+
+body {
+    background-color: #c9c9c9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 10px 50px ;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 40px;
+}
+
+.links {
+    /*padding-top: 20px;*/
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    padding-right: 25px;
+}
+
+/***********************************************************/
+/* VOLVER */
+
+.a-div {
+    text-align: center;
+}

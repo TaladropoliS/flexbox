@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+
+.main {
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid gray;
+    height: 60px;
+    overflow-y: hidden;
+}
+
+#input-text {
+    width: 80%;
+    height: 50px;
+    margin-right: 0;
+    padding-right: 0;
+}
+#input-btn {
+    width: 20%;
+    height: 50px;
+    background-color: aqua;
+    border: 1px solid gray;
+    font-weight: bold;
+    color: white;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+/***********************************************************/
+/* VOLVER */
+
+.a-div {
+    text-align: center;
+    padding: 50px;
+}
